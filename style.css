@@ -1,0 +1,31 @@
+h4{
+    color: blue
+}
+
+h1{
+    color: red
+}
+
+.error{
+    padding-left: 40%;
+    color: red
+}
+
+#cont{
+    padding-top: 30px;
+    padding-left: 55px;
+}
+
+.btn{
+    
+    padding-left: 93px;
+    padding-right: 100px;
+}
+
+.input{
+    padding-right: 55px;
+}
+
+.footer{
+    padding-left: 10px;
+}
