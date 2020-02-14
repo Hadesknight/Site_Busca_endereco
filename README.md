@@ -1,12 +1,9 @@
-Pagina Mal criada, com intenção apenas de testar a api!
+## Busca Cep na api ViaCep
 
-Usado Javascript
-
-Api do IBGE "https://viacep.com.br/"
-Hospedado para testes https://consulta-endereco.000webhostapp.com/
+>Essa pagina html foi criada bem simples, para testar os serviços de build do netlify
 
 
-Desculpem os erros, e a estrutura da pagina mal feita
-Não era o objetivo um bom designer, e sim aprender a usar o JS!
 
-Vlw =)
+>serviço postado no link:
+
+<a href="https://busca-cep.netlify.com/">Busca Cep</a>
