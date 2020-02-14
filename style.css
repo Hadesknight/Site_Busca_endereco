@@ -1,31 +1,43 @@
-h4{
-    color: blue
+.container{
+ display: flex;
+ flex-direction: column;
+ width: 800px;
+ margin:30px auto;
+
 }
 
-h1{
-    color: red
+
+.containerHead {
+    display: flex;
+    margin:auto;
 }
 
-.error{
-    padding-left: 40%;
-    color: red
+.containerHead .input{
+    width: 150px;
+    height:35px;
+    padding:5px;
+    border-radius: 4px;
+    border: 1px solid #7159c1;
+    margin-right:10px;
 }
 
-#cont{
-    padding-top: 30px;
-    padding-left: 55px;
+.containerHead .btn{
+    border:none;
+    background: #7159c1;
+    border-radius: 10px;  
 }
 
-.btn{
-    
-    padding-left: 93px;
-    padding-right: 100px;
+.containerBody {
+    display: flex;
+    margin: auto;
+    width: 400px;
+    flex-direction: column;
+    padding:30px;
+    border-radius: 4px;
+    border:1px solid #7159c1
 }
 
-.input{
-    padding-right: 55px;
-}
-
-.footer{
-    padding-left: 10px;
+.containerBody h3{
+    font-size: 14px;
+    color: #7159c1;
 }

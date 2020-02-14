@@ -1,47 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Api Correio</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel='stylesheet' type="text/css" href='style.css'>
 </head>
+
 <body>
     <div class="container" id="container">
-        <div class="container" id="cont">
-            <input type="text" class="input input-group-text" placeholder="Cep- Sem Pontos"><br>
-            <button class="btn btn-primary">Buscar</button>
+        <div class="containerHead" id="cont">
+            <input type="text" class="input" placeholder="Cep- Sem Pontos"><br>
+            <button class="btn">Buscar</button>
         </div>
         <hr>
-        <div class="container">
-            
-            <h3>Cep:</h3>            
-            <h4 class="cep"></h4>
-            <hr>
-            <h3>Endereço</h3>
-            <h4 class="endereco"></h4>
-            <hr>
-            <h3>Bairro:</h3>
-            <h4 class="bairro"></h4>
-            <hr>
-            <h3>Cidade:</h3>
-            <h4 class="cidade"></h4>
-            <hr>
-            <h3>Estado</h3>
-            <h4 class="estado"></h4>
-            <br>
-            <hr>
+        <div class="containerBody">
+
+            <div>
+                <h3>Cep:</h3>
+                <h4 class="cep"></h4>
+                <hr>
+                <h3>Endereço</h3>
+                <h4 class="endereco"></h4>
+                <hr>
+
+            </div>
+
+            <div>
+
+                <h3>Bairro:</h3>
+                <h4 class="bairro"></h4>
+                <hr>
+                <h3>Cidade:</h3>
+                <h4 class="cidade"></h4>
+                <hr>
+                <h3>Estado</h3>
+                <h4 class="estado"></h4>
+                <hr>
+
+
+            </div>
+
+
         </div>
         <div class="footer">
             <h2 class="error"></h2>
         </div>
     </div>
-    
+
 
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
